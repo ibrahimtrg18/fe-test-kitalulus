@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+.button {
+  margin: 8px 0;
+}
+
+.container {
+  display: block;
+}
+
+span.icon-container {
+  display: inline-flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+span.icon-container svg {
+  height: 18px;
+  width: 18px;
+}
+
+span.icon-container:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
