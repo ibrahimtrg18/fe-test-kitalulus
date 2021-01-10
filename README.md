@@ -1,7 +1,41 @@
-# Getting Started with Create React App
+# how to run the app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+first you need clone the app.\
+run the command below:
 
+```
+git clone https://github.com/ibrahimtrg18/fe-test-kitalulus.git
+```
+
+then go to directory
+using the command below:
+
+```
+cd fe-test-kitalulus
+```
+
+## install dependencies app
+
+you need install all dependencies modules required for this project by command below.\
+**Note: make sure you in this app directory**
+
+```
+npm install
+```
+
+## start app
+
+after finish installing all dependencies modules now you can start the project by run command below.
+
+```
+npm start
+```
+
+### deployed app
+
+open: https://fe-test-kitalulus.vercel.app/
+
+<!--
 ## Available Scripts
 
 In the project directory, you can run:
@@ -67,4 +101,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
